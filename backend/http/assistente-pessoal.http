@@ -1,0 +1,26 @@
+### GET request to example server
+GET https://armandojunior.app.n8n.cloud/webhook-test/assistente-pessoal
+
+###
+
+### POST request to example server
+POST https://armandojunior.app.n8n.cloud/webhook-test/assistente-pessoal
+Content-Type: application/json
+
+{
+    "chatId": "123456789",
+    "message": "Olá, tudo bem?"
+}
+
+###
+
+### POST request to example server
+POST https://armandojunior.app.n8n.cloud/webhook-test/assistente-pessoal
+Content-Type: application/json
+
+{
+    "chatId": "123456789",
+    "message": "Olá, tudo bem, você está disponivel para fazer um projeto web?"
+}
+
+###
